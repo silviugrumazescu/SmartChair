@@ -5,11 +5,15 @@ In acest proiect se vor gasi:
 * aplicatia windows suport pentru dispozitiv ( dezvoltata in C# )
 * fisierul .ino si header-urile acestui pentru programarea microcontroller-ului Arduino Mega
 
+![Imagine1](https://user-images.githubusercontent.com/74622515/124475963-ff292f00-ddaa-11eb-93be-7486de347cdc.jpg)
+
 **Descrierea dispozitivului:**   
 SmartChair se foloseste de 6 senzori de forta: 5 pozitionati in zona omoplatilor si in zona lombara, si 1 pentru sezut ( pentru a detecta prezenta utilizatorului ).
 In cazul in care senzorul pentru sezut este activ (persoana se afla pe scaun) dar ceilalti sensori pentru spate determina ca acesta se afla intr-o pozitie incorecta, 
 dispozitivul va alerta utilizatorul pana acesta isi corecteaza postura. In paralel, SmartChair inregistreaza o serie de statistici organizate pe zile, cum ar fi: 
 perioada petrecuta la calculator, numarul de alerte, timpul petrecut in pozitie incorecta si duratele de activare a fiecarui senzor. 
+
+<img width="548" alt="Schita-husa" src="https://user-images.githubusercontent.com/74622515/124475854-e02a9d00-ddaa-11eb-9e69-847bc0cc13dd.png">
 
 **Componente utilizate:**
 * Arduino Mega
@@ -28,5 +32,19 @@ corectarea posturii.
 
 * Modul fara bluetooth:
 Acest modul nu necesita folosirea aplicatiei suport, datele statistice inca fiind inregistrate, dar alertarea fiind facuta prin intermediul unei sonerii integrate in dispozitiv.
+
+## Aplicatia pentru Windows
+
+![Prezentare-aplicatie](https://user-images.githubusercontent.com/74622515/124477078-449a2c00-ddac-11eb-9789-3ca16ba57eff.gif)
+
+
+
+
+
+
+
+
+
+
 
 
